@@ -9,3 +9,5 @@ use flaskapp;
 
 show tables;
 select * from users;
+
+desc user;
