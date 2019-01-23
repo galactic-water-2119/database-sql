@@ -1,0 +1,11 @@
+brew link mysql
+brew link --overwrite mysql
+
+
+mysql -u root -p
+
+show databases;
+use flaskapp;
+
+show tables;
+select * from users;
