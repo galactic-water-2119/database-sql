@@ -2,5 +2,7 @@ $ psql -d database -U  user -W
 
 $ \l     -->    to list databases
 
+$ \dt    -->    to list tables
+
 $ \c databsase username     -->    to change db under diff/same user
 
