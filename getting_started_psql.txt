@@ -6,3 +6,16 @@ $ \dt    -->    to list tables
 
 $ \c databsase username     -->    to change db under diff/same user
 
+$ CREATE TABLE tablename (column1 int SET DEFAULT NOT NULL, column2 varchar(500), column3 date);
+
+$ \d tablename     --->   schema of table
+
+$ create sequence tablename_columnname_seq;      ---->    for autoincriment / serial
+
+$ ALTER TABLE tablename ALTER COLUMN columnname SET DEFAULT nextval(tablename_columnname_seq);     ----> setting autoinc to the table column 
+
+$ ALTER TABLE tablename ALTER COLUMN columnname SET NOT NULL;
+
+$ ALTER TABLE tablename RENAME COLUMN columnname TO column_name11;
+
+
